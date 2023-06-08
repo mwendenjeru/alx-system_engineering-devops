@@ -1,2 +1,2 @@
 #!/bin/bash
-parent_dir=$(dirname "$(pwd)")
+ls -l /tmp/file_0.html
