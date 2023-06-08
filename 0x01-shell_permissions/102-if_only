@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "hello" -user guillaume -exec chown betty {} \;
+[ "$(stat -c '%U' hello)" = "guillaume" ] && sudo chown betty hello
